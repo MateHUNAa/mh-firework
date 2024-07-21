@@ -1,0 +1,11 @@
+['firework'] = {
+		label = 'Firework',
+		weight = 3,
+		allowArmed = false,
+		client = {
+			usetime = 3000,
+			export = "mh-firework.firework",
+			triggerTime = math.random(1500, 2400),
+			effectTime = math.random(4500, 5000)
+		}
+	},
